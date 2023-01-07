@@ -3,10 +3,16 @@
   font-family: "open Sans", sans-serif;
 }
 /* Header and nav style  */
+.header{
+  background: #FFF8F3;
+  background-image: url(../img/header_bg.png), url(../img/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 .nav-title {
   font-weight: 800;
