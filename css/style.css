@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   font-family: 'Open Sans';
@@ -47,7 +51,18 @@ nav ul {
   background-color: #fd6e0a;
 }
 
+.btn-primary:hover {
+  background-color: #424242;
+}
+.btn-primary a{
+  text-decoration: none;
+  color: #fff;
+}
 /* Banner  */
+.MyPhoto {
+  margin-left: 30%;
+}
+
 .banner {
   display: flex;
   margin: 0 200px;
@@ -180,7 +195,72 @@ section {
 .resume .description {
   color: #757575;
 }
-.resume-button{
+
+.resume-button {
   margin-top: 50px;
   text-align: center;
+}
+
+/* contact styles */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact input[type='text'],
+input[type='email'],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input {
+  height: 64px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+/* footer  */
+footer {
+  background-color: #fd6e0a;
+  margin: 0;
+
+}
+
+footer p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 40px;
+  z-index: 999;
+  display: none;
+}
+
+.back-to-top i {
+  width: 40px;
+  height: 40px;
+  background-color: #fd6e0a;
+  ;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+
 }
